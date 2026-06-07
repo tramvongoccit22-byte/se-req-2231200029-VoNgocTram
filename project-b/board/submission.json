@@ -1,5 +1,5 @@
 {
-  "savedAt": "2026-06-07T09:16:22.966Z",
+  "savedAt": "2026-06-07T09:17:41.205Z",
   "groups": [
     {
       "id": "a89f807c-4e2c-4138-ace4-8b65bec6a8b5",
@@ -36,6 +36,16 @@
       "status": "todo",
       "type": "User Story",
       "priority": "Medium",
+      "owner": "Student"
+    },
+    {
+      "id": "51690eb3-df9b-4e9c-ae29-6ca86ac6d04b",
+      "title": "US003: Select Safe Exchange Zone before chatting",
+      "description": "As a Student, I want to select a Safe Exchange Zone before chatting with a seller, so that all physical meetups occur in a safe and designated location on campus.\n\nAcceptance Criteria:\n- [ ] System displays a list of available Safe Exchange Zones\n- [ ] Student cannot open chat without selecting a Safe Exchange Zone\n- [ ] Selected zone is visible to both buyer and seller in the chat",
+      "groupId": "ee8462f9-168f-46ad-a099-fea6ac511e39",
+      "status": "todo",
+      "type": "User Story",
+      "priority": "High",
       "owner": "Student"
     }
   ],
