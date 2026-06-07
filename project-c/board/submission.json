@@ -1,5 +1,5 @@
 {
-  "savedAt": "2026-06-07T09:28:25.768Z",
+  "savedAt": "2026-06-07T09:29:21.163Z",
   "groups": [
     {
       "id": "96ce9a23-c5a6-4608-9c70-cd420de01c3c",
@@ -36,6 +36,16 @@
       "status": "todo",
       "type": "User Story",
       "priority": "High",
+      "owner": "Student"
+    },
+    {
+      "id": "7c63ee9b-3589-4c5e-9e83-8217f0afd17c",
+      "title": "US003: Receive discount push notification",
+      "description": "As a Student, I want to receive a push notification at 11:30 AM with a discount on the daily special, so that I can take advantage of promotions and save money on my lunch.\n\nAcceptance Criteria:\n- [ ] Student receives a push notification at 11:30 AM on weekdays\n- [ ] Notification includes the daily special name and discount amount\n- [ ] Student can tap the notification to go directly to the item in the app\n- [ ] Student can opt out of notifications in settings",
+      "groupId": "e0758fc7-98f2-4db5-8c4e-da8282dc5a91",
+      "status": "todo",
+      "type": "User Story",
+      "priority": "Medium",
       "owner": "Student"
     }
   ],
