@@ -1,5 +1,5 @@
 {
-  "savedAt": "2026-06-07T09:29:21.163Z",
+  "savedAt": "2026-06-07T09:30:29.307Z",
   "groups": [
     {
       "id": "96ce9a23-c5a6-4608-9c70-cd420de01c3c",
@@ -47,6 +47,16 @@
       "type": "User Story",
       "priority": "Medium",
       "owner": "Student"
+    },
+    {
+      "id": "23813714-daa0-4c0c-8073-ce41592b65f0",
+      "title": "US004: Mark menu item as Sold Out",
+      "description": "As an Administrator, I want to instantly mark a menu item as Sold Out, so that students cannot place orders for unavailable items and the kitchen avoids confusion.\n\nAcceptance Criteria:\n- [ ] Administrator can mark any item as Sold Out from the kitchen display\n- [ ] Sold Out items are immediately hidden or disabled on the student app\n- [ ] Administrator can restore an item to available status at any time\n- [ ] Changes take effect in under 5 seconds after confirmation",
+      "groupId": "e0758fc7-98f2-4db5-8c4e-da8282dc5a91",
+      "status": "todo",
+      "type": "User Story",
+      "priority": "Urgent",
+      "owner": "Administrator"
     }
   ],
   "analysis": {
