@@ -1,5 +1,5 @@
 {
-  "savedAt": "2026-06-07T09:23:38.819Z",
+  "savedAt": "2026-06-07T09:24:20.250Z",
   "groups": [
     {
       "id": "96ce9a23-c5a6-4608-9c70-cd420de01c3c",
@@ -20,7 +20,7 @@
   "tickets": [],
   "analysis": {
     "ambiguity1": "Requirement: \"I want students to order food on their phone while they are walking from class.\"\n\nWhy vague: There is no defined cutoff time for when orders can be placed before pickup. It is also unclear whether the app requires a stable internet connection to place orders or supports offline ordering for students.",
-    "ambiguity2": "",
+    "ambiguity2": "Requirement: \"We want to send push notifications to students at 11:30 AM offering them a discount on the daily special.\"\n\nWhy vague: There is no definition of what qualifies as a \"discount\" — is it a fixed amount or a percentage? It is also unclear whether all students receive the notification or only those who have opted in, and whether the 11:30 AM time is fixed or configurable.",
     "conflictSolution": "",
     "nfr1": "",
     "nfr2": "",
