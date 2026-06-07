@@ -1,5 +1,5 @@
 {
-  "savedAt": "2026-06-07T09:26:19.664Z",
+  "savedAt": "2026-06-07T09:27:25.735Z",
   "groups": [
     {
       "id": "96ce9a23-c5a6-4608-9c70-cd420de01c3c",
@@ -17,7 +17,18 @@
       "color": "#d97706"
     }
   ],
-  "tickets": [],
+  "tickets": [
+    {
+      "id": "67fa43e4-135e-4820-9561-fa10e2262570",
+      "title": "US001: Browse and order food from mobile app",
+      "description": "As a Student, I want to browse the cafeteria menu and place an order from my phone, so that I can skip the queue and pick up my food without waiting in line.\n\nAcceptance Criteria:\n- [ ] Student can view the full menu with item names, prices, and descriptions\n- [ ] Student can add items to cart and confirm order from mobile app\n- [ ] Student receives a confirmation notification after order is placed",
+      "groupId": "e0758fc7-98f2-4db5-8c4e-da8282dc5a91",
+      "status": "todo",
+      "type": "User Story",
+      "priority": "High",
+      "owner": "Student"
+    }
+  ],
   "analysis": {
     "ambiguity1": "Requirement: \"I want students to order food on their phone while they are walking from class.\"\n\nWhy vague: There is no defined cutoff time for when orders can be placed before pickup. It is also unclear whether the app requires a stable internet connection to place orders or supports offline ordering for students.",
     "ambiguity2": "Requirement: \"We want to send push notifications to students at 11:30 AM offering them a discount on the daily special.\"\n\nWhy vague: There is no definition of what qualifies as a \"discount\" — is it a fixed amount or a percentage? It is also unclear whether all students receive the notification or only those who have opted in, and whether the 11:30 AM time is fixed or configurable.",
