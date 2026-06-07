@@ -1,5 +1,5 @@
 {
-  "savedAt": "2026-06-07T08:58:28.854Z",
+  "savedAt": "2026-06-07T08:59:51.517Z",
   "groups": [
     {
       "id": "95199a86-6785-4ca8-a902-b29b68b021ce",
@@ -32,6 +32,16 @@
       "id": "ccb86dee-a0b3-41ff-821a-d93a80948a97",
       "title": "US001: View course prerequisites",
       "description": "As a Student, I want to view the prerequisites for each course, so that I can plan my schedule without enrolling in the wrong courses.\n\nAcceptance Criteria:\n- [ ] Student can see the full prerequisite list for any course\n- [ ] System displays a warning if a prerequisite has not been completed\n- [ ] Prerequisite information is accurate and up to date",
+      "groupId": "5e6e3620-e9d2-4a8c-bc8e-9d449a67df43",
+      "status": "todo",
+      "type": "User Story",
+      "priority": "High",
+      "owner": "Student"
+    },
+    {
+      "id": "291ee5ca-0dd3-4306-8333-83a4432f70b7",
+      "title": "US002: Build a 4-year course roadmap",
+      "description": "As a Student, I want to drag and drop courses into a calendar, so that I can visually plan my 4-year academic roadmap.\n\nAcceptance Criteria:\n- [ ] Student can drag and drop courses into semester slots\n- [ ] System warns if a course is added to a full or unavailable slot\n- [ ] Student can save and reload their roadmap at any time",
       "groupId": "5e6e3620-e9d2-4a8c-bc8e-9d449a67df43",
       "status": "todo",
       "type": "User Story",
