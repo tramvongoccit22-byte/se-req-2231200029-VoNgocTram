@@ -1,5 +1,5 @@
 {
-  "savedAt": "2026-06-07T09:30:29.307Z",
+  "savedAt": "2026-06-07T09:31:32.590Z",
   "groups": [
     {
       "id": "96ce9a23-c5a6-4608-9c70-cd420de01c3c",
@@ -56,6 +56,16 @@
       "status": "todo",
       "type": "User Story",
       "priority": "Urgent",
+      "owner": "Administrator"
+    },
+    {
+      "id": "da8502d7-3822-4631-a3e1-91f607039eaf",
+      "title": "US005: View incoming orders on kitchen display",
+      "description": "As an Administrator, I want to view all incoming orders on a kitchen display screen, so that the kitchen staff can prepare orders efficiently and reduce wait times.\n\nAcceptance Criteria:\n- [ ] Kitchen display shows all incoming orders in real time\n- [ ] Orders are displayed with student name, items, and order time\n- [ ] Display continues to function offline for at least 10 minutes if Wi-Fi cuts out\n- [ ] Orders placed during offline period sync automatically when connection is restored",
+      "groupId": "e0758fc7-98f2-4db5-8c4e-da8282dc5a91",
+      "status": "todo",
+      "type": "User Story",
+      "priority": "High",
       "owner": "Administrator"
     }
   ],
