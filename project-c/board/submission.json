@@ -1,5 +1,5 @@
 {
-  "savedAt": "2026-06-07T09:31:32.590Z",
+  "savedAt": "2026-06-07T09:32:22.278Z",
   "groups": [
     {
       "id": "96ce9a23-c5a6-4608-9c70-cd420de01c3c",
@@ -67,6 +67,36 @@
       "type": "User Story",
       "priority": "High",
       "owner": "Administrator"
+    },
+    {
+      "id": "be60667f-a3a5-46ea-84e5-13c1c17dc543",
+      "title": "NFR Epic 1: Reliability: The kitchen display system must be able to work offline f",
+      "description": "Reliability: The kitchen display system must be able to work offline for at least 10 minutes without crashing and automatically sync all orders once the internet connection is restored.",
+      "groupId": "e0758fc7-98f2-4db5-8c4e-da8282dc5a91",
+      "status": "todo",
+      "type": "Epic",
+      "priority": "Medium",
+      "owner": ""
+    },
+    {
+      "id": "820647d5-9082-4977-9c64-15052e460f9a",
+      "title": "NFR Epic 2: Performance: Menu item availability must update in real time so that w",
+      "description": "Performance: Menu item availability must update in real time so that when a Chef marks an item as \"Sold Out\", it is immediately reflected on the student app to prevent further orders.",
+      "groupId": "e0758fc7-98f2-4db5-8c4e-da8282dc5a91",
+      "status": "todo",
+      "type": "Epic",
+      "priority": "Medium",
+      "owner": ""
+    },
+    {
+      "id": "b33a25ab-64cc-4c83-ae87-f2276b90c213",
+      "title": "NFR Epic 3: Usability: The app must support allergen filtering so that students ca",
+      "description": "Usability: The app must support allergen filtering so that students can hide menu items containing specific ingredients, ensuring a safe and anxiety-free browsing experience.",
+      "groupId": "e0758fc7-98f2-4db5-8c4e-da8282dc5a91",
+      "status": "todo",
+      "type": "Epic",
+      "priority": "Medium",
+      "owner": ""
     }
   ],
   "analysis": {
