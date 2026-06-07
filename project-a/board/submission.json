@@ -1,5 +1,5 @@
 {
-  "savedAt": "2026-06-07T09:03:22.018Z",
+  "savedAt": "2026-06-07T09:04:22.251Z",
   "groups": [
     {
       "id": "95199a86-6785-4ca8-a902-b29b68b021ce",
@@ -67,6 +67,16 @@
       "type": "User Story",
       "priority": "High",
       "owner": "Administrator"
+    },
+    {
+      "id": "b50923fb-2bb9-4b00-9b85-6af65b014448",
+      "title": "US005: Check real-time course availability",
+      "description": "As a Student, I want to see real-time availability of courses, so that I can avoid adding full classes to my current semester registration.\n\nAcceptance Criteria:\n- [ ] System displays current enrollment status for each course\n- [ ] Full courses are clearly marked and cannot be added to current semester\n- [ ] Availability updates automatically without requiring page refresh",
+      "groupId": "5e6e3620-e9d2-4a8c-bc8e-9d449a67df43",
+      "status": "todo",
+      "type": "User Story",
+      "priority": "High",
+      "owner": "Student"
     }
   ],
   "analysis": {
