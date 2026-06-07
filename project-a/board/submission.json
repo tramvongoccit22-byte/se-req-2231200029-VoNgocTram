@@ -1,5 +1,5 @@
 {
-  "savedAt": "2026-06-07T08:59:51.517Z",
+  "savedAt": "2026-06-07T09:01:09.734Z",
   "groups": [
     {
       "id": "95199a86-6785-4ca8-a902-b29b68b021ce",
@@ -46,6 +46,16 @@
       "status": "todo",
       "type": "User Story",
       "priority": "High",
+      "owner": "Student"
+    },
+    {
+      "id": "89374917-3221-4d2e-8a1a-bc97f2ae09d1",
+      "title": "Title: US003: Receive early morning class warning",
+      "description": "As a Student, I want to receive a warning when I select a class that starts at or before 9:00 AM, so that I can make an informed decision about my schedule.\n\nAcceptance Criteria:\n- [ ] System displays a visible warning when a class starting at or before 9:00 AM is added\n- [ ] Warning appears before the course is confirmed in the roadmap\n- [ ] Student can still choose to keep the class after seeing the warning",
+      "groupId": "5e6e3620-e9d2-4a8c-bc8e-9d449a67df43",
+      "status": "todo",
+      "type": "User Story",
+      "priority": "Medium",
       "owner": "Student"
     }
   ],
