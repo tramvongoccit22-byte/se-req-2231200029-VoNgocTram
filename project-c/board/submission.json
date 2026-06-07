@@ -1,5 +1,5 @@
 {
-  "savedAt": "2026-06-07T09:24:20.250Z",
+  "savedAt": "2026-06-07T09:25:11.201Z",
   "groups": [
     {
       "id": "96ce9a23-c5a6-4608-9c70-cd420de01c3c",
@@ -21,7 +21,7 @@
   "analysis": {
     "ambiguity1": "Requirement: \"I want students to order food on their phone while they are walking from class.\"\n\nWhy vague: There is no defined cutoff time for when orders can be placed before pickup. It is also unclear whether the app requires a stable internet connection to place orders or supports offline ordering for students.",
     "ambiguity2": "Requirement: \"We want to send push notifications to students at 11:30 AM offering them a discount on the daily special.\"\n\nWhy vague: There is no definition of what qualifies as a \"discount\" — is it a fixed amount or a percentage? It is also unclear whether all students receive the notification or only those who have opted in, and whether the 11:30 AM time is fixed or configurable.",
-    "conflictSolution": "",
+    "conflictSolution": "Conflict: The IT Infrastructure Team states the kitchen display system must work offline for at least 10 minutes without crashing. However, the Chef needs to mark items as \"Sold Out\" instantly so students stop ordering unavailable items in real time.\n\nSolution: Implement a local cache on the kitchen display system that stores and processes incoming orders offline for up to 10 minutes. When the Chef marks an item as \"Sold Out\", the update is stored locally and synced to the student app immediately when connection is restored. Additionally, display a warning on the student app when the menu was last synced more than 2 minutes ago.",
     "nfr1": "",
     "nfr2": "",
     "nfr3": ""
