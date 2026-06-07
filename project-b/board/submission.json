@@ -1,5 +1,5 @@
 {
-  "savedAt": "2026-06-07T09:19:51.686Z",
+  "savedAt": "2026-06-07T09:20:48.207Z",
   "groups": [
     {
       "id": "a89f807c-4e2c-4138-ace4-8b65bec6a8b5",
@@ -67,6 +67,36 @@
       "type": "User Story",
       "priority": "Medium",
       "owner": "Student"
+    },
+    {
+      "id": "68b3d80b-378c-4d0f-a324-39d0d16a5560",
+      "title": "NFR Epic 1: Security: Only users with a valid .edu email address may register. All",
+      "description": "Security: Only users with a valid .edu email address may register. All accounts must be verified before accessing the marketplace to prevent unauthorized external users.",
+      "groupId": "ee8462f9-168f-46ad-a099-fea6ac511e39",
+      "status": "todo",
+      "type": "Epic",
+      "priority": "Medium",
+      "owner": ""
+    },
+    {
+      "id": "f8ca68d9-1b7f-49ee-ac36-4d8f298675ce",
+      "title": "NFR Epic 2: Safety: The system must enforce selection of a Safe Exchange Zone befo",
+      "description": "Safety: The system must enforce selection of a Safe Exchange Zone before enabling chat between buyers and sellers to ensure all physical meetups occur in designated safe locations.",
+      "groupId": "ee8462f9-168f-46ad-a099-fea6ac511e39",
+      "status": "todo",
+      "type": "Epic",
+      "priority": "Medium",
+      "owner": ""
+    },
+    {
+      "id": "3e350fd0-3fef-4707-b625-71fdef5d6954",
+      "title": "NFR Epic 3: Usability: The app must support barcode scanning for listing items, al",
+      "description": "Usability: The app must support barcode scanning for listing items, allowing students to create listings quickly without manually entering product details such as ISBN or title.",
+      "groupId": "ee8462f9-168f-46ad-a099-fea6ac511e39",
+      "status": "todo",
+      "type": "Epic",
+      "priority": "Medium",
+      "owner": ""
     }
   ],
   "analysis": {
