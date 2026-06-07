@@ -1,0 +1,29 @@
+{
+  "savedAt": "2026-06-07T09:23:38.819Z",
+  "groups": [
+    {
+      "id": "96ce9a23-c5a6-4608-9c70-cd420de01c3c",
+      "name": "Blockers",
+      "color": "#2563eb"
+    },
+    {
+      "id": "e0758fc7-98f2-4db5-8c4e-da8282dc5a91",
+      "name": "Standard Work",
+      "color": "#059669"
+    },
+    {
+      "id": "8d797d3f-35ef-4acd-bf45-f44a945d399f",
+      "name": "Minors",
+      "color": "#d97706"
+    }
+  ],
+  "tickets": [],
+  "analysis": {
+    "ambiguity1": "Requirement: \"I want students to order food on their phone while they are walking from class.\"\n\nWhy vague: There is no defined cutoff time for when orders can be placed before pickup. It is also unclear whether the app requires a stable internet connection to place orders or supports offline ordering for students.",
+    "ambiguity2": "",
+    "conflictSolution": "",
+    "nfr1": "",
+    "nfr2": "",
+    "nfr3": ""
+  }
+}
