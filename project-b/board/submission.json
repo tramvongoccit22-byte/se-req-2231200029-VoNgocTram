@@ -1,5 +1,5 @@
 {
-  "savedAt": "2026-06-07T09:18:48.842Z",
+  "savedAt": "2026-06-07T09:19:51.686Z",
   "groups": [
     {
       "id": "a89f807c-4e2c-4138-ace4-8b65bec6a8b5",
@@ -57,6 +57,16 @@
       "type": "User Story",
       "priority": "High",
       "owner": "Administrator"
+    },
+    {
+      "id": "cb86f676-fb6c-4229-95c4-f7d62df7510e",
+      "title": "US005: Auction items to other students",
+      "description": "As a Student, I want to auction my items with a start price and end time, so that I can get the best price for my belongings from other students.\n\nAcceptance Criteria:\n- [ ] Student can set a starting bid price and auction end date\n- [ ] Other students can place bids before the auction ends\n- [ ] Highest bidder is notified automatically when auction ends\n- [ ] Seller is notified of the final winning bid",
+      "groupId": "ee8462f9-168f-46ad-a099-fea6ac511e39",
+      "status": "todo",
+      "type": "User Story",
+      "priority": "Medium",
+      "owner": "Student"
     }
   ],
   "analysis": {
