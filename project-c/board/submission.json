@@ -1,5 +1,5 @@
 {
-  "savedAt": "2026-06-07T09:27:25.735Z",
+  "savedAt": "2026-06-07T09:28:25.768Z",
   "groups": [
     {
       "id": "96ce9a23-c5a6-4608-9c70-cd420de01c3c",
@@ -22,6 +22,16 @@
       "id": "67fa43e4-135e-4820-9561-fa10e2262570",
       "title": "US001: Browse and order food from mobile app",
       "description": "As a Student, I want to browse the cafeteria menu and place an order from my phone, so that I can skip the queue and pick up my food without waiting in line.\n\nAcceptance Criteria:\n- [ ] Student can view the full menu with item names, prices, and descriptions\n- [ ] Student can add items to cart and confirm order from mobile app\n- [ ] Student receives a confirmation notification after order is placed",
+      "groupId": "e0758fc7-98f2-4db5-8c4e-da8282dc5a91",
+      "status": "todo",
+      "type": "User Story",
+      "priority": "High",
+      "owner": "Student"
+    },
+    {
+      "id": "44c91a3e-e0c8-4491-b37d-ef20267b5956",
+      "title": "US002: Filter menu by allergens",
+      "description": "As a Student, I want to filter the menu by allergens, so that I can hide items containing ingredients I am allergic to and order safely.\n\nAcceptance Criteria:\n- [ ] Student can select one or more allergens to filter (e.g., peanuts, gluten, dairy)\n- [ ] Menu items containing selected allergens are completely hidden from view\n- [ ] Filter settings are saved for future sessions",
       "groupId": "e0758fc7-98f2-4db5-8c4e-da8282dc5a91",
       "status": "todo",
       "type": "User Story",
