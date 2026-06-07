@@ -1,5 +1,5 @@
 {
-  "savedAt": "2026-06-07T09:01:09.734Z",
+  "savedAt": "2026-06-07T09:03:22.018Z",
   "groups": [
     {
       "id": "95199a86-6785-4ca8-a902-b29b68b021ce",
@@ -50,13 +50,23 @@
     },
     {
       "id": "89374917-3221-4d2e-8a1a-bc97f2ae09d1",
-      "title": "Title: US003: Receive early morning class warning",
+      "title": "US003: Receive early morning class warning",
       "description": "As a Student, I want to receive a warning when I select a class that starts at or before 9:00 AM, so that I can make an informed decision about my schedule.\n\nAcceptance Criteria:\n- [ ] System displays a visible warning when a class starting at or before 9:00 AM is added\n- [ ] Warning appears before the course is confirmed in the roadmap\n- [ ] Student can still choose to keep the class after seeing the warning",
       "groupId": "5e6e3620-e9d2-4a8c-bc8e-9d449a67df43",
       "status": "todo",
       "type": "User Story",
       "priority": "Medium",
       "owner": "Student"
+    },
+    {
+      "id": "34494f8b-5459-42fb-9b98-30f35ee77c17",
+      "title": "US004: Manually override prerequisite requirements",
+      "description": "As an Administrator, I want to manually override prerequisite requirements for a student with special permission, so that I can support exceptional academic cases.\n\nAcceptance Criteria:\n- [ ] Administrator can select a student and override a specific prerequisite\n- [ ] System logs every override with timestamp, advisor name, and reason\n- [ ] Overridden courses are visually marked in the student's roadmap\n- [ ] Override action is only available to authorized staff accounts",
+      "groupId": "5e6e3620-e9d2-4a8c-bc8e-9d449a67df43",
+      "status": "todo",
+      "type": "User Story",
+      "priority": "High",
+      "owner": "Administrator"
     }
   ],
   "analysis": {
