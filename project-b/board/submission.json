@@ -1,5 +1,5 @@
 {
-  "savedAt": "2026-06-07T09:14:57.404Z",
+  "savedAt": "2026-06-07T09:16:22.966Z",
   "groups": [
     {
       "id": "a89f807c-4e2c-4138-ace4-8b65bec6a8b5",
@@ -26,6 +26,16 @@
       "status": "todo",
       "type": "User Story",
       "priority": "High",
+      "owner": "Student"
+    },
+    {
+      "id": "d4cdf37f-42b6-4ab7-86c5-23ea7fc0d9bb",
+      "title": "US002: Scan barcode to list item for sale",
+      "description": "As a Student, I want to scan a barcode with my phone camera to list an item, so that I can create a listing quickly without manually entering product details.\n\nAcceptance Criteria:\n- [ ] App activates camera to scan barcode\n- [ ] System automatically fills in item title and details from barcode\n- [ ] Student can edit the auto-filled information before publishing",
+      "groupId": "ee8462f9-168f-46ad-a099-fea6ac511e39",
+      "status": "todo",
+      "type": "User Story",
+      "priority": "Medium",
       "owner": "Student"
     }
   ],
