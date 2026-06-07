@@ -1,5 +1,5 @@
 {
-  "savedAt": "2026-06-07T09:10:59.148Z",
+  "savedAt": "2026-06-07T09:11:44.598Z",
   "groups": [
     {
       "id": "a89f807c-4e2c-4138-ace4-8b65bec6a8b5",
@@ -21,7 +21,7 @@
   "analysis": {
     "ambiguity1": "Requirement: \"The app should force users to select a safe zone before they can chat.\"\n\nWhy vague: The term \"force\" is not defined — it is unclear whether the system should block the chat feature entirely or just display a warning. Additionally, there is no definition of what qualifies as a \"Safe Exchange Zone\" or who is responsible for maintaining that list.",
     "ambiguity2": "Requirement: \"I want to be able to auction items, not just set a fixed price.\"\n\nWhy vague: The auction mechanism is not defined — there is no specification for minimum bid increment, auction duration, how a winner is determined, or what happens if no bids are placed before the deadline.",
-    "conflictSolution": "",
+    "conflictSolution": "Conflict: The University Legal Team states the app cannot process any payments, as the university is not a bank. However, the Student Union President wants to collect a 2% transaction fee to fund club activities.\n\nSolution: The app will not process payments directly. Instead, it will display a suggested voluntary contribution of 2% to the Student Union fund, with payment handled externally via Venmo or cash. This keeps the university legally clear while still supporting club funding goals.",
     "nfr1": "",
     "nfr2": "",
     "nfr3": ""
