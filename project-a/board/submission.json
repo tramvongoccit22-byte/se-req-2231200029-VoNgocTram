@@ -1,5 +1,5 @@
 {
-  "savedAt": "2026-06-07T08:49:13.285Z",
+  "savedAt": "2026-06-07T08:58:28.854Z",
   "groups": [
     {
       "id": "95199a86-6785-4ca8-a902-b29b68b021ce",
@@ -15,9 +15,30 @@
       "id": "3f89b382-8ae3-48cc-ad60-629e1b4f2ddb",
       "name": "Minors",
       "color": "#d97706"
+    },
+    {
+      "id": "dae5beda-68cd-43bb-88b4-70c375221007",
+      "name": "Standard Work",
+      "color": "#2563eb"
+    },
+    {
+      "id": "61b234bb-f21f-4c1c-b258-ac2e44774b26",
+      "name": "Standard Work",
+      "color": "#eb24ac"
     }
   ],
-  "tickets": [],
+  "tickets": [
+    {
+      "id": "ccb86dee-a0b3-41ff-821a-d93a80948a97",
+      "title": "US001: View course prerequisites",
+      "description": "As a Student, I want to view the prerequisites for each course, so that I can plan my schedule without enrolling in the wrong courses.\n\nAcceptance Criteria:\n- [ ] Student can see the full prerequisite list for any course\n- [ ] System displays a warning if a prerequisite has not been completed\n- [ ] Prerequisite information is accurate and up to date",
+      "groupId": "5e6e3620-e9d2-4a8c-bc8e-9d449a67df43",
+      "status": "todo",
+      "type": "User Story",
+      "priority": "High",
+      "owner": "Student"
+    }
+  ],
   "analysis": {
     "ambiguity1": "Requirement: \"The app should warn me if I am choosing a class that starts at 8:00 AM.\"\n\nWhy vague: The term \"warn\" is not defined — it is unclear whether the warning should be a popup, a color highlight, or a banner notification. Additionally, the threshold is ambiguous: does the warning apply only to 8:00 AM classes or to all early morning slots (e.g., before 9:00 AM)?",
     "ambiguity2": "Requirement: \"Students should be able to plan 4 years ahead, even if we do not know if the class is full yet.\"\n\nWhy vague: There is no defined behavior for how the system should handle future courses with unknown availability — should they appear as \"Available\", \"Unknown\", or be greyed out? No acceptance criteria exist for what \"plan ahead\" means in terms of system state.",
