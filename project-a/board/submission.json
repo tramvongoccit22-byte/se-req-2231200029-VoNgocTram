@@ -1,5 +1,5 @@
 {
-  "savedAt": "2026-06-07T09:04:22.251Z",
+  "savedAt": "2026-06-07T09:06:52.523Z",
   "groups": [
     {
       "id": "95199a86-6785-4ca8-a902-b29b68b021ce",
@@ -77,6 +77,36 @@
       "type": "User Story",
       "priority": "High",
       "owner": "Student"
+    },
+    {
+      "id": "f427a3a7-9b2d-419e-afb4-4f0ebf970bea",
+      "title": "NFR Epic 1: Security: No student should be able to view another student's schedule",
+      "description": "Security: No student should be able to view another student's schedule or roadmap. All advisor prerequisite overrides must be logged for audit purposes.",
+      "groupId": "5e6e3620-e9d2-4a8c-bc8e-9d449a67df43",
+      "status": "todo",
+      "type": "Epic",
+      "priority": "Medium",
+      "owner": ""
+    },
+    {
+      "id": "6526aa6d-cd3e-44bf-a6f3-49d338c34a69",
+      "title": "NFR Epic 2: Performance: The system must sync with the live course database in rea",
+      "description": "Performance: The system must sync with the live course database in real time so that seat availability is always up to date for current-semester registration.",
+      "groupId": "5e6e3620-e9d2-4a8c-bc8e-9d449a67df43",
+      "status": "todo",
+      "type": "Epic",
+      "priority": "Medium",
+      "owner": ""
+    },
+    {
+      "id": "f9d21e24-656b-48dd-b668-2fdd928afce4",
+      "title": "NFR Epic 3: Usability: The interface must support drag-and-drop course planning an",
+      "description": "Usability: The interface must support drag-and-drop course planning and display clear visual warnings, making it accessible and intuitive for first-year students.",
+      "groupId": "5e6e3620-e9d2-4a8c-bc8e-9d449a67df43",
+      "status": "todo",
+      "type": "Epic",
+      "priority": "Medium",
+      "owner": ""
     }
   ],
   "analysis": {
