@@ -1,5 +1,5 @@
 {
-  "savedAt": "2026-06-07T08:42:45.112Z",
+  "savedAt": "2026-06-07T08:44:43.999Z",
   "groups": [
     {
       "id": "95199a86-6785-4ca8-a902-b29b68b021ce",
@@ -20,7 +20,7 @@
   "tickets": [],
   "analysis": {
     "ambiguity1": "Requirement: \"The app should warn me if I am choosing a class that starts at 8:00 AM.\"\n\nWhy vague: The term \"warn\" is not defined — it is unclear whether the warning should be a popup, a color highlight, or a banner notification. Additionally, the threshold is ambiguous: does the warning apply only to 8:00 AM classes or to all early morning slots (e.g., before 9:00 AM)?",
-    "ambiguity2": "",
+    "ambiguity2": "Requirement: \"Students should be able to plan 4 years ahead, even if we do not know if the class is full yet.\"\n\nWhy vague: There is no defined behavior for how the system should handle future courses with unknown availability — should they appear as \"Available\", \"Unknown\", or be greyed out? No acceptance criteria exist for what \"plan ahead\" means in terms of system state.",
     "conflictSolution": "",
     "nfr1": "",
     "nfr2": "",
