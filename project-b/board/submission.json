@@ -1,0 +1,29 @@
+{
+  "savedAt": "2026-06-07T09:10:13.554Z",
+  "groups": [
+    {
+      "id": "a89f807c-4e2c-4138-ace4-8b65bec6a8b5",
+      "name": "Blockers",
+      "color": "#2563eb"
+    },
+    {
+      "id": "ee8462f9-168f-46ad-a099-fea6ac511e39",
+      "name": "Standard Work",
+      "color": "#059669"
+    },
+    {
+      "id": "d50e3a6b-3a5d-469b-9824-034c49563dd6",
+      "name": "Minors",
+      "color": "#d97706"
+    }
+  ],
+  "tickets": [],
+  "analysis": {
+    "ambiguity1": "Requirement: \"The app should force users to select a safe zone before they can chat.\"\n\nWhy vague: The term \"force\" is not defined — it is unclear whether the system should block the chat feature entirely or just display a warning. Additionally, there is no definition of what qualifies as a \"Safe Exchange Zone\" or who is responsible for maintaining that list.",
+    "ambiguity2": "",
+    "conflictSolution": "",
+    "nfr1": "",
+    "nfr2": "",
+    "nfr3": ""
+  }
+}
